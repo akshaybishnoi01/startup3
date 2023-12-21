@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+}
+
+.container {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.background-img {
+    background-image: url(../image/Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mim-vh-1oo{
+    min-height: 100vh;
+}
+.d-flex {
+    display: flex;
+}
+.gap-33 {
+    gap: 33px;
+}
+.j-c-b{
+    justify-content: space-between;
+}
+.p-top {
+    padding-top: 67px;
+}
+.font-s {
+    color: var(--Colors-White, #FFF);
+
+/* Buttons / Middle */
+font-family: 'DM Sans' ,sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 144.444% */
+}
+.text-s {
+    color: var(--Colors-White, #FFF);
+text-align: center;
+font-family: 'DM Sans' ,sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.293px;
+}
+.head-1 {
+    color: var(--Colors-White, #FFF);
+text-align: center;
+
+/* Heading / H2 Header */
+font-family: 'DM Sans' ,sans-serif;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 120.69% */
+letter-spacing: -1px;
+}
+.p-top-100 {
+    padding-top: 100px;
+}
+.j-centre {
+    display: flex;
+    justify-content: center;
+}
+.pra {
+    color: var(--Colors-White, #FFF);
+text-align: center;
+
+/* Text / Article */
+font-family: 'DM Sans' ,sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+}
+.sign_up{
+    border: none;
+    width: 100px;
+height: 40.104px;
+flex-shrink: 0;
+    border-radius: 100px;
+background: none;
+    color: var(--Colors-White, #FFF);
+    text-align: center;
+    font-family: 'DM Sans',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 144.444% */
+}
+.sign_up:hover{
+    background-color: #25DAC5;
+    
+}
+.login {
+    color: var(--Colors-White, #FFF);
+    width: 100px;
+    height: 40.104px;
+    flex-shrink: 0;
+        border-radius: 100px;
+/* Buttons / Middle */
+font-family:' DM Sans' ,sans-serif;
+font-size: 18px;
+text-align: center;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 144.444% */
+border: none;
+background-color:transparent;
+}
+.login:hover {
+    background-color: #25DAC5;
+    
+}
